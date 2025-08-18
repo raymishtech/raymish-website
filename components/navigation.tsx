@@ -8,43 +8,28 @@ import { ThemeToggle } from '@/components/theme-toggle';
 import { Menu, X, Code } from 'lucide-react';
 import { useTheme } from 'next-themes';
 import React from 'react';
+import Image from 'next/image';
 
 function RaymishLogo({ className = '', style = {} }) {
-  const { theme } = useTheme();
-  const [mounted, setMounted] = React.useState(false);
-  React.useEffect(() => { setMounted(true); }, []);
-  if (!mounted) {
-    return (
-      <svg width="120" height="32" viewBox="0 0 120 32" fill="none" xmlns="http://www.w3.org/2000/svg" className={className} style={style}>
-        <rect width="120" height="32" fill="transparent" />
-      </svg>
-    );
-  }
   return (
-    <svg
-      width="120"
-      height="32"
-      viewBox="0 0 120 32"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      className={className}
-      style={style}
-    >
-      <rect width="120" height="32" fill="transparent" />
-      <text
-        x="50%"
-        y="50%"
-        dominantBaseline="middle"
-        textAnchor="middle"
-        fontFamily="Inter, Arial, sans-serif"
-        fontWeight="bold"
-        fontSize="22"
-        fill={theme === 'dark' ? '#fff' : '#111'}
-        letterSpacing="2"
-      >
-        Raymish
-      </text>
-    </svg>
+    <div className={className} style={style}>
+      <Image
+        src="/raymish%20logo%20lighttheme.png"
+        alt="Raymish logo"
+        width={120}
+        height={32}
+        className="block dark:hidden h-8 w-auto"
+        priority
+      />
+      <Image
+        src="/raymish%20logo%20darktheme.png"
+        alt="Raymish logo"
+        width={120}
+        height={32}
+        className="hidden dark:block h-8 w-auto"
+        priority
+      />
+    </div>
   );
 }
 
