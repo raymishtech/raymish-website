@@ -63,13 +63,13 @@ export default function Contact() {
     {
       icon: Phone,
       title: 'Phone',
-      value: '+1 (555) 123-4567',
+      value: '+91-9884467525',
       description: 'Mon-Fri from 8am to 6pm'
     },
     {
       icon: MapPin,
       title: 'Office',
-      value: '123 Tech Street, Digital City, DC 12345',
+      value: 'Kandasamy street, Pallipattu, Chennai',
       description: 'Come say hello at our office'
     },
     {
@@ -217,7 +217,7 @@ export default function Contact() {
                         name="phone"
                         value={formData.phone}
                         onChange={handleInputChange}
-                        placeholder="+1 (555) 123-4567"
+                        placeholder="+91-9884467525"
                       />
                     </div>
                   </div>
