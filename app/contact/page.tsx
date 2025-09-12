@@ -69,7 +69,7 @@ export default function Contact() {
     {
       icon: MapPin,
       title: 'Office',
-      value: 'Kandasamy street, Pallipattu, Chennai',
+      value: 'Adyar Chennai',
       description: 'Come say hello at our office'
     },
     {
@@ -154,7 +154,7 @@ export default function Contact() {
       </section>
 
       {/* Contact Form & Info */}
-      <section className="py-16 bg-muted/30">
+      <section id="contact-form" className="py-16 bg-muted/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12">
             {/* Contact Form */}
@@ -327,23 +327,6 @@ export default function Contact() {
                 </div>
               </div>
 
-              <Card className="bg-card border-border">
-                <CardHeader>
-                  <CardTitle className="flex items-center text-card-foreground">
-                    <Calendar className="w-5 h-5 mr-2 text-primary" />
-                    Schedule a Call
-                  </CardTitle>
-                  <CardDescription className="text-muted-foreground">
-                    Prefer to talk? Schedule a free 30-minute consultation call with our team.
-                  </CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <Button className="w-full bg-primary hover:bg-primary/90">
-                    Book a Call
-                    <ArrowRight className="w-4 h-4 ml-2" />
-                  </Button>
-                </CardContent>
-              </Card>
             </div>
           </div>
         </div>
@@ -376,6 +359,269 @@ export default function Contact() {
               </Card>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Why Contact Raymish Section */}
+      <section className="py-16 lg:py-24 bg-muted/30">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <Badge className="mb-4 bg-primary/10 text-primary">
+              Why Choose Raymish
+            </Badge>
+            <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-4">
+              Why Leading Companies Contact Raymish First
+            </h2>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+              Don't let your competitors get ahead. Contact us today to discover how our technology 
+              solutions can transform your business and give you the competitive edge you need.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <Card className="p-6 bg-card border-border hover:shadow-lg transition-shadow">
+              <div className="flex items-center space-x-3 mb-4">
+                <div className="w-12 h-12 bg-blue-100 dark:bg-blue-900 rounded-lg flex items-center justify-center">
+                  <CheckCircle className="w-6 h-6 text-blue-600 dark:text-blue-300" />
+                </div>
+                <h3 className="text-lg font-semibold text-card-foreground">Free Consultation</h3>
+              </div>
+              <p className="text-muted-foreground">
+                Get expert advice on your project at no cost. Our team will analyze your requirements 
+                and provide actionable insights to help you make informed decisions.
+              </p>
+            </Card>
+
+            <Card className="p-6 bg-card border-border hover:shadow-lg transition-shadow">
+              <div className="flex items-center space-x-3 mb-4">
+                <div className="w-12 h-12 bg-green-100 dark:bg-green-900 rounded-lg flex items-center justify-center">
+                  <Clock className="w-6 h-6 text-green-600 dark:text-green-300" />
+                </div>
+                <h3 className="text-lg font-semibold text-card-foreground">24-Hour Response</h3>
+              </div>
+              <p className="text-muted-foreground">
+                We understand time is money. That's why we guarantee a response within 24 hours 
+                to all inquiries, ensuring you never miss a business opportunity.
+              </p>
+            </Card>
+
+            <Card className="p-6 bg-card border-border hover:shadow-lg transition-shadow">
+              <div className="flex items-center space-x-3 mb-4">
+                <div className="w-12 h-12 bg-purple-100 dark:bg-purple-900 rounded-lg flex items-center justify-center">
+                  <MessageSquare className="w-6 h-6 text-purple-600 dark:text-purple-300" />
+                </div>
+                <h3 className="text-lg font-semibold text-card-foreground">No Obligation</h3>
+              </div>
+              <p className="text-muted-foreground">
+                Our initial consultation comes with no strings attached. We're here to help you 
+                succeed, whether you choose to work with us or not.
+              </p>
+            </Card>
+
+            <Card className="p-6 bg-card border-border hover:shadow-lg transition-shadow">
+              <div className="flex items-center space-x-3 mb-4">
+                <div className="w-12 h-12 bg-orange-100 dark:bg-orange-900 rounded-lg flex items-center justify-center">
+                  <Globe className="w-6 h-6 text-orange-600 dark:text-orange-300" />
+                </div>
+                <h3 className="text-lg font-semibold text-card-foreground">Global Expertise</h3>
+              </div>
+              <p className="text-muted-foreground">
+                With experience serving clients worldwide, we understand diverse market requirements 
+                and can help you scale your business globally.
+              </p>
+            </Card>
+
+            <Card className="p-6 bg-card border-border hover:shadow-lg transition-shadow">
+              <div className="flex items-center space-x-3 mb-4">
+                <div className="w-12 h-12 bg-teal-100 dark:bg-teal-900 rounded-lg flex items-center justify-center">
+                  <Calendar className="w-6 h-6 text-teal-600 dark:text-teal-300" />
+                </div>
+                <h3 className="text-lg font-semibold text-card-foreground">Flexible Scheduling</h3>
+              </div>
+              <p className="text-muted-foreground">
+                We work around your schedule. Book a call at your convenience, including evenings 
+                and weekends, to discuss your project requirements.
+              </p>
+            </Card>
+
+            <Card className="p-6 bg-card border-border hover:shadow-lg transition-shadow">
+              <div className="flex items-center space-x-3 mb-4">
+                <div className="w-12 h-12 bg-red-100 dark:bg-red-900 rounded-lg flex items-center justify-center">
+                  <Send className="w-6 h-6 text-red-600 dark:text-red-300" />
+                </div>
+                <h3 className="text-lg font-semibold text-card-foreground">Quick Start</h3>
+              </div>
+              <p className="text-muted-foreground">
+                Ready to get started immediately? We can begin your project within days of 
+                initial contact, helping you launch faster than your competitors.
+              </p>
+            </Card>
+          </div>
+
+          <div className="text-center mt-12">
+            <div className="bg-primary/5 rounded-2xl p-8">
+              <h3 className="text-2xl font-bold text-foreground mb-4">
+                Don't Wait - Your Competitors Aren't
+              </h3>
+              <p className="text-lg text-muted-foreground mb-6">
+                Every day you wait is a day your competitors get ahead. Contact us now and let's 
+                discuss how we can help you dominate your market with cutting-edge technology.
+              </p>
+              <Button asChild size="lg" className="bg-primary hover:bg-primary/90 px-8 py-3">
+                <a href="#contact-form">
+                  Start Your Project Today
+                  <ArrowRight className="w-5 h-5 ml-2" />
+                </a>
+              </Button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* What Happens Next Section */}
+      <section className="py-16 lg:py-24 bg-muted/30">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <Badge className="mb-4 bg-primary/10 text-primary">
+              Our Process
+            </Badge>
+            <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-4">
+              What Happens After You Contact Us
+            </h2>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+              We've streamlined our process to get you from initial contact to project launch 
+              as quickly and efficiently as possible. Here's exactly what to expect.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="text-center">
+              <div className="w-16 h-16 bg-primary rounded-full mx-auto mb-4 flex items-center justify-center">
+                <span className="text-2xl font-bold text-primary-foreground">1</span>
+              </div>
+              <h3 className="text-xl font-semibold text-foreground mb-3">Initial Response</h3>
+              <p className="text-muted-foreground">
+                Within 24 hours, our team will review your inquiry and send you a detailed response 
+                with next steps and preliminary questions.
+              </p>
+            </div>
+
+            <div className="text-center">
+              <div className="w-16 h-16 bg-primary rounded-full mx-auto mb-4 flex items-center justify-center">
+                <span className="text-2xl font-bold text-primary-foreground">2</span>
+              </div>
+              <h3 className="text-xl font-semibold text-foreground mb-3">Consultation</h3>
+              <p className="text-muted-foreground">
+                We'll schedule a 30-60 minute consultation call to discuss your project in detail, 
+                understand your goals, and answer all your questions.
+              </p>
+            </div>
+
+            <div className="text-center">
+              <div className="w-16 h-16 bg-primary rounded-full mx-auto mb-4 flex items-center justify-center">
+                <span className="text-2xl font-bold text-primary-foreground">3</span>
+              </div>
+              <h3 className="text-xl font-semibold text-foreground mb-3">Proposal & Quote</h3>
+              <p className="text-muted-foreground">
+                Within 2-3 business days, you'll receive a comprehensive proposal with timeline, 
+                pricing, and detailed project specifications.
+              </p>
+            </div>
+
+            <div className="text-center">
+              <div className="w-16 h-16 bg-primary rounded-full mx-auto mb-4 flex items-center justify-center">
+                <span className="text-2xl font-bold text-primary-foreground">4</span>
+              </div>
+              <h3 className="text-xl font-semibold text-foreground mb-3">Project Kickoff</h3>
+              <p className="text-muted-foreground">
+                Once approved, we'll begin your project within 1-2 weeks, starting with detailed 
+                planning and design phases.
+              </p>
+            </div>
+          </div>
+
+          <div className="text-center mt-12">
+            <div className="bg-card border border-border rounded-2xl p-8 max-w-4xl mx-auto">
+              <h3 className="text-2xl font-bold text-foreground mb-4">
+                Ready to Get Started?
+              </h3>
+              <p className="text-lg text-muted-foreground mb-6">
+                Don't wait another day. Every moment you delay is a moment your competitors get ahead. 
+                Contact us now and let's discuss how we can help you achieve your goals.
+              </p>
+              <Button asChild size="lg" className="bg-primary hover:bg-primary/90 px-8 py-3">
+                <a href="#contact-form">
+                  Start Your Project Now
+                  <ArrowRight className="w-5 h-5 ml-2" />
+                </a>
+              </Button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Trust Signals & Guarantees Section */}
+      <section className="py-16 lg:py-24 bg-muted/30">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <Badge className="mb-4 bg-primary/10 text-primary">
+              Our Guarantees
+            </Badge>
+            <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-4">
+              Your Success is Our Guarantee
+            </h2>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+              We're so confident in our ability to deliver exceptional results that we back 
+              our work with comprehensive guarantees and support.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <Card className="text-center p-6 bg-card border-border hover:shadow-lg transition-shadow">
+              <div className="w-16 h-16 bg-green-100 dark:bg-green-900 rounded-full mx-auto mb-4 flex items-center justify-center">
+                <CheckCircle className="w-8 h-8 text-green-600 dark:text-green-300" />
+              </div>
+              <h3 className="text-xl font-semibold text-card-foreground mb-3">100% Satisfaction</h3>
+              <p className="text-muted-foreground">
+                We guarantee your complete satisfaction with our work. If you're not happy, 
+                we'll make it right or refund your money.
+              </p>
+            </Card>
+
+            <Card className="text-center p-6 bg-card border-border hover:shadow-lg transition-shadow">
+              <div className="w-16 h-16 bg-blue-100 dark:bg-blue-900 rounded-full mx-auto mb-4 flex items-center justify-center">
+                <Clock className="w-8 h-8 text-blue-600 dark:text-blue-300" />
+              </div>
+              <h3 className="text-xl font-semibold text-card-foreground mb-3">On-Time Delivery</h3>
+              <p className="text-muted-foreground">
+                We commit to delivering your project on time, every time. Late delivery means 
+                automatic discounts on your final invoice.
+              </p>
+            </Card>
+
+            <Card className="text-center p-6 bg-card border-border hover:shadow-lg transition-shadow">
+              <div className="w-16 h-16 bg-purple-100 dark:bg-purple-900 rounded-full mx-auto mb-4 flex items-center justify-center">
+                <MessageSquare className="w-8 h-8 text-purple-600 dark:text-purple-300" />
+              </div>
+              <h3 className="text-xl font-semibold text-card-foreground mb-3">Support Team</h3>
+              <p className="text-muted-foreground">
+                Our support team is available around the clock to help you with any issues 
+                or questions you may have.
+              </p>
+            </Card>
+
+            <Card className="text-center p-6 bg-card border-border hover:shadow-lg transition-shadow">
+              <div className="w-16 h-16 bg-orange-100 dark:bg-orange-900 rounded-full mx-auto mb-4 flex items-center justify-center">
+                <Globe className="w-8 h-8 text-orange-600 dark:text-orange-300" />
+              </div>
+              <h3 className="text-xl font-semibold text-card-foreground mb-3">Lifetime Updates</h3>
+              <p className="text-muted-foreground">
+                We provide lifetime updates and security patches for all our applications 
+                to keep them running smoothly and securely.
+              </p>
+            </Card>
+          </div>
+
         </div>
       </section>
     </div>
