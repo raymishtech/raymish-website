@@ -299,7 +299,7 @@ export default function Services() {
             Ready to Start Your Project?
           </h2>
           <p className="text-xl text-muted-foreground mb-8">
-            Let's discuss your requirements and create a custom solution that fits your needs and budget.
+            Let&apos;s discuss your requirements and create a custom solution that fits your needs and budget.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild size="lg" className="bg-primary hover:bg-primary/90 px-8 py-3">

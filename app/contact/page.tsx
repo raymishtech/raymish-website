@@ -57,13 +57,13 @@ export default function Contact() {
     {
       icon: Mail,
       title: 'Email',
-      value: 'info@raymish.com',
+      value: 'tech@raymish.com',
       description: 'Send us an email anytime'
     },
     {
       icon: Phone,
       title: 'Phone',
-      value: '+91-9884467525',
+      value: '+91-8754494846',
       description: 'Mon-Fri from 8am to 6pm'
     },
     {
@@ -75,7 +75,7 @@ export default function Contact() {
     {
       icon: Clock,
       title: 'Working Hours',
-      value: 'Mon-Fri: 8am-6pm EST',
+      value: 'Mon-Fri: 8am-6pm IST',
       description: 'We respond within 24 hours'
     }
   ];
@@ -108,7 +108,7 @@ export default function Contact() {
           </div>
           <h2 className="text-2xl font-bold text-foreground mb-2">Message Sent!</h2>
           <p className="text-muted-foreground mb-6">
-            Thank you for reaching out. We'll get back to you within 24 hours.
+            Thank you for reaching out. We&apos;ll get back to you within 24 hours.
           </p>
           <Button 
             onClick={() => {
@@ -143,11 +143,11 @@ export default function Contact() {
               Get In Touch
             </Badge>
             <h1 className="text-4xl sm:text-5xl font-bold text-foreground mb-6">
-              Let's Build Something Amazing Together
+              Let&apos;s Build Something Amazing Together
             </h1>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               Ready to transform your business with cutting-edge technology? 
-              We'd love to hear about your project and discuss how we can help you achieve your goals.
+              We&apos;d love to hear about your project and discuss how we can help you achieve your goals.
             </p>
           </div>
         </div>
@@ -162,7 +162,7 @@ export default function Contact() {
               <CardHeader>
                 <CardTitle className="text-2xl text-card-foreground">Send us a Message</CardTitle>
                 <CardDescription className="text-muted-foreground">
-                  Fill out the form below and we'll get back to you as soon as possible.
+                  Fill out the form below and we&apos;ll get back to you as soon as possible.
                 </CardDescription>
               </CardHeader>
               <CardContent>
@@ -217,7 +217,7 @@ export default function Contact() {
                         name="phone"
                         value={formData.phone}
                         onChange={handleInputChange}
-                        placeholder="+91-9884467525"
+                        placeholder="+91-1234567890"
                       />
                     </div>
                   </div>
@@ -373,7 +373,7 @@ export default function Contact() {
               Why Leading Companies Contact Raymish First
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Don't let your competitors get ahead. Contact us today to discover how our technology 
+              Don&apos;t let your competitors get ahead. Contact us today to discover how our technology 
               solutions can transform your business and give you the competitive edge you need.
             </p>
           </div>
@@ -400,7 +400,7 @@ export default function Contact() {
                 <h3 className="text-lg font-semibold text-card-foreground">24-Hour Response</h3>
               </div>
               <p className="text-muted-foreground">
-                We understand time is money. That's why we guarantee a response within 24 hours 
+                We understand time is money. That&apos;s why we guarantee a response within 24 hours 
                 to all inquiries, ensuring you never miss a business opportunity.
               </p>
             </Card>
@@ -413,7 +413,7 @@ export default function Contact() {
                 <h3 className="text-lg font-semibold text-card-foreground">No Obligation</h3>
               </div>
               <p className="text-muted-foreground">
-                Our initial consultation comes with no strings attached. We're here to help you 
+                Our initial consultation comes with no strings attached. We&apos;re here to help you   
                 succeed, whether you choose to work with us or not.
               </p>
             </Card>
@@ -461,10 +461,10 @@ export default function Contact() {
           <div className="text-center mt-12">
             <div className="bg-primary/5 rounded-2xl p-8">
               <h3 className="text-2xl font-bold text-foreground mb-4">
-                Don't Wait - Your Competitors Aren't
+                Don&apos;t Wait - Your Competitors Aren&apos;t
               </h3>
               <p className="text-lg text-muted-foreground mb-6">
-                Every day you wait is a day your competitors get ahead. Contact us now and let's 
+                Every day you wait is a day your competitors get ahead. Contact us now and let&apos;s 
                 discuss how we can help you dominate your market with cutting-edge technology.
               </p>
               <Button asChild size="lg" className="bg-primary hover:bg-primary/90 px-8 py-3">
@@ -489,8 +489,8 @@ export default function Contact() {
               What Happens After You Contact Us
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              We've streamlined our process to get you from initial contact to project launch 
-              as quickly and efficiently as possible. Here's exactly what to expect.
+              We&apos;ve streamlined our process to get you from initial contact to project launch 
+              as quickly and efficiently as possible. Here&apos;s exactly what to expect.
             </p>
           </div>
 
@@ -512,7 +512,7 @@ export default function Contact() {
               </div>
               <h3 className="text-xl font-semibold text-foreground mb-3">Consultation</h3>
               <p className="text-muted-foreground">
-                We'll schedule a 30-60 minute consultation call to discuss your project in detail, 
+                We&apos;ll schedule a 30-60 minute consultation call to discuss your project in detail, 
                 understand your goals, and answer all your questions.
               </p>
             </div>
@@ -523,7 +523,7 @@ export default function Contact() {
               </div>
               <h3 className="text-xl font-semibold text-foreground mb-3">Proposal & Quote</h3>
               <p className="text-muted-foreground">
-                Within 2-3 business days, you'll receive a comprehensive proposal with timeline, 
+                Within 2-3 business days, you&apos;ll receive a comprehensive proposal with timeline, 
                 pricing, and detailed project specifications.
               </p>
             </div>
@@ -534,7 +534,7 @@ export default function Contact() {
               </div>
               <h3 className="text-xl font-semibold text-foreground mb-3">Project Kickoff</h3>
               <p className="text-muted-foreground">
-                Once approved, we'll begin your project within 1-2 weeks, starting with detailed 
+                Once approved, we&apos;ll begin your project within 1-2 weeks, starting with detailed  
                 planning and design phases.
               </p>
             </div>
@@ -546,8 +546,8 @@ export default function Contact() {
                 Ready to Get Started?
               </h3>
               <p className="text-lg text-muted-foreground mb-6">
-                Don't wait another day. Every moment you delay is a moment your competitors get ahead. 
-                Contact us now and let's discuss how we can help you achieve your goals.
+                Don&apos;t wait another day. Every moment you delay is a moment your competitors get ahead. 
+                Contact us now and let&apos;s discuss how we can help you achieve your goals.
               </p>
               <Button asChild size="lg" className="bg-primary hover:bg-primary/90 px-8 py-3">
                 <a href="#contact-form">
@@ -571,7 +571,7 @@ export default function Contact() {
               Your Success is Our Guarantee
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              We're so confident in our ability to deliver exceptional results that we back 
+              We&apos;re so confident in our ability to deliver exceptional results that we back   
               our work with comprehensive guarantees and support.
             </p>
           </div>
@@ -583,8 +583,8 @@ export default function Contact() {
               </div>
               <h3 className="text-xl font-semibold text-card-foreground mb-3">100% Satisfaction</h3>
               <p className="text-muted-foreground">
-                We guarantee your complete satisfaction with our work. If you're not happy, 
-                we'll make it right or refund your money.
+                We guarantee your complete satisfaction with our work. If you&apos;re not happy, 
+                we&apos;ll make it right or refund your money.
               </p>
             </Card>
 

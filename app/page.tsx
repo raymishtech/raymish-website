@@ -526,7 +526,7 @@ export default function Home() {
             Ready to Transform Your Business?
           </h2>
           <p className="text-xl text-muted-foreground mb-8">
-            Let's discuss how we can help you achieve your technology goals and drive innovation in your industry.
+            Let&apos;s discuss how we can help you achieve your technology goals and drive innovation in your industry.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild size="lg" className="bg-primary hover:bg-primary/90 px-8 py-3">

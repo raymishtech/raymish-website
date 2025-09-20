@@ -98,10 +98,10 @@ export default function About() {
               About Us
             </Badge>
             <h1 className="text-4xl sm:text-5xl font-bold text-foreground mb-6">
-              Building Tomorrow's Technology Today
+              Building Tomorrow&apos;s Technology Today
             </h1>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              At Raymish Technology Solutions, we're passionate about creating innovative 
+              At Raymish Technology Solutions, we&apos;re passionate about creating innovative 
               technology solutions that drive business success. Our team of experienced 
               developers and designers work closely with clients to deliver exceptional results.
             </p>
@@ -562,7 +562,7 @@ export default function About() {
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               From humble beginnings to becoming a trusted technology partner, 
-              here's our journey of growth and innovation.
+              here&apos;s our journey of growth and innovation.  
             </p>
           </div>
 
@@ -685,7 +685,7 @@ export default function About() {
               Join the Growing List of Success Stories
             </h3>
             <p className="text-lg text-muted-foreground mb-6">
-              Ready to transform your business with cutting-edge technology? Let's discuss how 
+              Ready to transform your business with cutting-edge technology? Let&apos;s discuss how  
               our solutions can help you achieve your goals and drive growth.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -716,7 +716,7 @@ export default function About() {
               Client Success Stories
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Discover how we've helped businesses across various industries achieve their digital 
+              Discover how we&apos;ve helped businesses across various industries achieve their digital 
               transformation goals and drive measurable results.
             </p>
           </div>
@@ -733,8 +733,8 @@ export default function About() {
                 </div>
               </div>
               <p className="text-muted-foreground mb-4">
-                "Raymish transformed our online presence with a custom e-commerce platform that increased 
-                our sales by 300% and improved customer satisfaction significantly."
+                &quot;Raymish transformed our online presence with a custom e-commerce platform that increased 
+                our sales by 300% and improved customer satisfaction significantly.&quot;
               </p>
               <div className="flex items-center space-x-2">
                 <div className="flex text-yellow-400">
@@ -757,8 +757,8 @@ export default function About() {
                 </div>
               </div>
               <p className="text-muted-foreground mb-4">
-                "The mobile banking app developed by Raymish has revolutionized our customer experience, 
-                with 95% user satisfaction and 50% reduction in support tickets."
+                &quot;The mobile banking app developed by Raymish has revolutionized our customer experience, 
+                with 95% user satisfaction and 50% reduction in support tickets.&quot;
               </p>
               <div className="flex items-center space-x-2">
                 <div className="flex text-yellow-400">
@@ -781,8 +781,8 @@ export default function About() {
                 </div>
               </div>
               <p className="text-muted-foreground mb-4">
-                "Their AI solution helped us reduce diagnostic time by 60% and improve accuracy by 40%, 
-                transforming our patient care capabilities."
+                &quot;Their AI solution helped us reduce diagnostic time by 60% and improve accuracy by 40%, 
+                transforming our patient care capabilities.&quot;
               </p>
               <div className="flex items-center space-x-2">
                 <div className="flex text-yellow-400">
@@ -849,7 +849,7 @@ export default function About() {
                   Ready to Get Started?
                 </h3>
                 <p className="text-muted-foreground mb-6">
-                  Schedule a free consultation with our experts. We'll analyze your requirements, 
+                  Schedule a free consultation with our experts. We&apos;ll analyze your requirements,   
                   discuss your goals, and provide a detailed proposal tailored to your business needs.
                 </p>
                 <div className="space-y-3">
